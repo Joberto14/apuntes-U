@@ -13,4 +13,29 @@ Definiciones:
 	![[Multiplexación en frecuencia.png|300]]
 	- Multiplexación espacial: en el caso particular de la comunicacion inalambrica la multiplexación espacial se logra con el uso de varias antenas para enviar mensajes, normalmente manifestado en la tecnologia MIMO(multiple input multiple output) que a grandes rasgos hace que el fujo de informacion se separe -> sea transmitido por varias antenas -> y luego reconstruido por haber sido captado por varias antenas receptoras esta tecnología tiene hartas ventajas para mejorar la QoL y no voy a seguir detallando mucho aca aun.
 		![[Boceto de tecnologia MIMO.excalidraw|350]]
-	- Multiplexación temporal: basicamente consiste en subdividir la informacion en ventanas de tiempo, es util ya que dependiend del caso de uso, si las ventanas de tiempo son suficientemente rapidas reulta imperceptible que el canal de informacion esta sirviendo varios flujos de informacion, asi mismo es un sistema legacy en su mayor parte utilizado en telefonía clásica pero también el bluethoot!
+	- Multiplexación temporal: básicamente consiste en subdividir la información en ventanas de tiempo, es util ya que dependiendo del caso de uso, si las ventanas de tiempo son suficientemente rápidas resulta imperceptible que el canal de information esta sirviendo varios flujos de información, así mismo es un sistema legacy en su mayor parte utilizado en telefonía clásica pero también el Bluetooth!
+- dB: 
+	decibelios representación logarítmica de relación entre input y output	![[Caja negra decibeles]]
+	en este caso la caja negra amplifica el input 2 veces $O/I = 2mW/1mW = 2$ $veces$
+					            $\Large 10 * log(\frac{output}{input}) = XdB$
+	**dBm** -> relación de potencias respecto a un mili Watt
+	**dBW** -> relación de potencias respecto a un Watt
+- SNR  
+	Relación señal a ruido (Signal to noise ratio)
+	Según Venegas el ruido es cualquier señal no deseada
+	Según Carreño es la contaminación de señales y un una baseline en toda comunicacion
+	Según Wikipedia el ruido es  un error operturbacion aleatoria no deseada de una señal de información util en un canal de telecomunicación. El ruido es la suma de de perturbaciones y energia no deseada ya sea de funtes de la naturaleza
+	
+	A menor SNR nivel de SNR no se logra una comunicacion eficiente 
+	
+	Diferencia  de potencia de señal captada y potencia del ruido 
+- SNIR
+	Diferencia de niveles de potencia a la señal a la señal deseada vs las otras señales que se están enviando en la misma banda de frecuencia
+- Ancho de banda(bandiwidth)
+	Rang de frecuencia de utilización
+- Eficiencia espectral ($\eta$)
+	$\Large \log_2(1 + SNR)$ $\Huge [\frac{Bps}{Hz}]$ $\Huge \frac{E_o}{N_o} = SNR$
+	![[Eficiencia espectral.excalidraw|300]]
+	capacidad de transmisión en un hertz sistema
+	$\eta * BW$ -> capacidad maxima de eficiencia espectral teórica del sistema
+	
