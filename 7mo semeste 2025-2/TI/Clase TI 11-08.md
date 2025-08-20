@@ -1,8 +1,7 @@
-### Nivelación
-Definiciones:
-
-- medio físico:
-	vías por las cuales se transporta la información como lo puede ser el aire, un cable(cables coaxiales, cables de par trenzado) o un circuito eléctrico(PCB)
+ ## Nivelación
+ ### Definiciones:
+ - medio físico:
+	 vías por las cuales se transporta la información como lo puede ser el aire, un cable(cables coaxiales, cables de par trenzado) o un circuito eléctrico(PCB)
 - medio confinado:
 	medio donde se propaga la info sin salir de este, dependiendo del caso puede ser afectado por los campos electromagnéticos que se propagan desde otras vías, como se menciono anteriormente estos son medios como los cables, la fibra optica y los circuitos eléctricos
 - Espectro:
