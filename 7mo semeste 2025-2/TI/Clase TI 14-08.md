@@ -8,7 +8,7 @@ continuación de la ppt 0, conceptos basicos
 	
 	A mayor complejidad de modulation más probabilidad de errores
 	Es necesario contar con un mayor SNR para poder usar modulaciones mas complejas 
-	Cuando un SNR no es garantía se deben usar modulaciones mas simples
+	Cuando un buen nivel de SNR no es garantía se deben usar modulaciones mas simples
 	
 	los sistemas modernos son inteligentes y aceptan varias modulaciones para afrontar la variabilidad en la SNR
 	
@@ -35,5 +35,3 @@ continuación de la ppt 0, conceptos basicos
 
 0db + 0db es igual!!! a 0db
 hay que pensar que dado que los decibeles estan en escala logaritmica la suma es una multiplicacion de sus argumentos por los que $0 * 0 = 0$ 
-
-asi mismo 

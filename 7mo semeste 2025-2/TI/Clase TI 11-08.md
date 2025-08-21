@@ -22,19 +22,22 @@
 - SNR  
 	Relación señal a ruido (Signal to noise ratio)
 	Según Venegas el ruido es cualquier señal no deseada
-	Según Carreño es la contaminación de señales y un una baseline en toda comunicacion
-	Según Wikipedia el ruido es  un error operturbacion aleatoria no deseada de una señal de información util en un canal de telecomunicación. El ruido es la suma de de perturbaciones y energia no deseada ya sea de funtes de la naturaleza
+	Según Carreño es la contaminación de señales y un una baseline en toda comunicación
+	Según Wikipedia el ruido es  un error o perturbación aleatoria no deseada de una señal de información util en un canal de telecomunicación. El ruido es la suma de de perturbaciones y energía no deseada ya sea de fuentes de la naturaleza o fuentes humanas
 	
-	A menor SNR nivel de SNR no se logra una comunicacion eficiente 
+	A menor nivel de SNR no se logra una comunicación eficiente 
 	
 	Diferencia  de potencia de señal captada y potencia del ruido 
 - SNIR
-	Diferencia de niveles de potencia a la señal a la señal deseada vs las otras señales que se están enviando en la misma banda de frecuencia
-- Ancho de banda(bandiwidth)
-	Rang de frecuencia de utilización
+	Diferencia de niveles de potencia a la señal deseada vs las otras señales que se están enviando en la misma banda de frecuencia
+- Ancho de banda(bandwidth)
+	Rango de frecuencia de utilización
 - Eficiencia espectral ($\eta$)
 	$\Large \log_2(1 + SNR)$ $\Huge [\frac{Bps}{Hz}]$ $\Huge \frac{E_o}{N_o} = SNR$
 	![[Eficiencia espectral.excalidraw|300]]
-	capacidad de transmisión en un hertz sistema
+	Métrica teórica que indica que tan bien aprovechado está el espectro
+	
+	capacidad de transmisión en un hertz de un sistema
+	
 	$\eta * BW$ -> capacidad maxima de eficiencia espectral teórica del sistema
 	
