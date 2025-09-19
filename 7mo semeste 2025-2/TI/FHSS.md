@@ -1,0 +1,1 @@
+Frecuency hoping spread spectrum is a method of transmitting radio signals by rapidly changing the carrier frequency among many frequencies occupying a large spectral band.
