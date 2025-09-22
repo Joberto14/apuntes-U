@@ -1,0 +1,6 @@
+El **acceso múltiple por división de frecuencias ortogonales** (**OFDMA**, del inglés _orthogonal frequency-division multiple access_) es la versión multiusuario de la conocida **OFDM**, [multiplexación por división de frecuencias ortogonales](https://es.wikipedia.org/wiki/OFDM "OFDM"). Se utiliza para conseguir que un conjunto de usuarios de un sistema de telecomunicaciones puedan compartir el espectro de un cierto canal para aplicaciones de baja velocidad. El acceso múltiple se consigue dividiendo el canal en un conjunto de subportadoras que se reparten en grupos en función de la necesidad de cada uno de los usuarios.
+
+Para conseguir una mayor eficiencia, el sistema se realimenta con las condiciones del canal, adaptando continuamente el número de subportadoras asignadas al usuario en función de la velocidad que este necesita y de las condiciones del canal. Si la asignación se hace rápidamente, se consigue cancelar de forma eficiente las interferencias co-canal y los desvanecimientos rápidos, proporcionando una mejor [eficiencia espectral](https://es.wikipedia.org/wiki/Eficiencia_espectral "Eficiencia espectral") del sistema que [OFDM](https://es.wikipedia.org/wiki/OFDM "OFDM").
+
+![[OFDM vs OFDMA.png]]
+

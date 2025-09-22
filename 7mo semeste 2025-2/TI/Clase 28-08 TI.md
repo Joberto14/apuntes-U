@@ -1,4 +1,4 @@
-## Redes inalambricas
+r## Redes inalambricas
 
 ![[cuadro resumen de redes inalambricas.png]]
 
@@ -31,11 +31,14 @@ Asume que el unico camino entre receptor y transmison es la LOS, no hay obstacul
 
 ![[modelo de Fris]]
 
-$\huge P_r =P_t*G_t*G_r*(\frac{ \lambda }{4*\pi*d})^2$
+$\huge P_r =P_t*G_t*G_r*(\frac{ \lambda }{4*\pi*d})^2$ -> forma lineal (Watts)
 $(\frac{ \lambda }{4*\pi*d})^2$ -> path loss que depende de la frecuencia de la onda
 el elevado se le llama exponente de perdidas y cuando es igual a 2 es que se llama modelo de Fris
 
+$\huge P_r =P_t + G_t +G_r +20log{(\frac{ \lambda }{4*\pi*d})}$ -> forma decibeles (db)
 Puede ser usado de modelo de referencia
+
+$\huge PL =\frac{P_t}{P_r} = -10log(\frac{G_t*G_r*\lambda^2 }{(4*\pi*d)^2})$
 
 *Ganancia:* intrínseco de la antena, las antenas mas simples son omnidireccionales
 

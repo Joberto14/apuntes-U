@@ -16,7 +16,7 @@ Evolución de la tecnología celular
 - Comprension adaptativa de Voz
 - Modulaciones GPRS, HSCSD
 3era generación -> tecnología digital
-- W-CDMA (Wideband Code Division Multiple Access)
+	- W-CDMA (Wideband Code Division Multiple Access)
 - estandar UMTS (Universal Mobile Telecomunication System) y IMT2000
 - servicios basados en imagenes, videos, png jpg
  4ta generación: 

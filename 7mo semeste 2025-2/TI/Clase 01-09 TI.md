@@ -5,7 +5,7 @@ Infrarojo: sin uso practico
 Radio:
 - [[FHSS]] primer modelo, en desuso
 - [[DSSS]] usado en 802.11b hasta 11Mb/s
-- [[OFDM]] introduciod en 802.11a y es la base de los sistemas modernos
+- [[OFDM]] introducido en 802.11a y es la base de los sistemas modernos
 ![[cuadro resumen del nivel fisico 802.11.png]]
 
 **Regulación del espectro y la importancia de las bandas ISM**
