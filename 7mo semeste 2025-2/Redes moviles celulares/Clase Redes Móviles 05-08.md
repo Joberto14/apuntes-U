@@ -4,6 +4,8 @@ curso centrado en la capa física y capa de enlace de datos(1 y 2)
 
 3 evaluaciones -> 2 solemnes y 1 trabajo (parejas)
 
+$\huge \frac{s1+s2+T}{3}$
+
 Teoría > desarrollo
 
 antenas celulares (3G, 4G, 5G) y naturaleza móvil
