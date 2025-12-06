@@ -55,4 +55,14 @@ Country code(CC), 56
 Nacional Destination Code(NDC) 9
 Suscriber number(SN) 68285124
 
+###### IMSI(International Mobile Suscriber identity)
+es un número único de hasta 15 dígitos que identifica a un suscriptor en una red móvil y se almacena en la tarjeta SIM
+Mobile country code(MCC)
+Mobile Network code(MNC)
+Mobile Subscriber Identification Number (MSIN)
 
+IMEI (Intenational Mobile Equipment Identity)
+numero pregrabado en los móviles GSM, identifica al aparato de forma exclusiva a nivel mundial
+Type Allocation Code(TAC)
+Serial number(SNR)
+Imei software version (IMEI/SVN)
