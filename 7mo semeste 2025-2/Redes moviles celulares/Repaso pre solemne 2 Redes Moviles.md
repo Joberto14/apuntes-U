@@ -1,3 +1,5 @@
+
+# LTE y LTE advanced
 RE - > expresion minima una subcarrier con un timeslot
 RB - canal fisico con 12 subportadoras y 7 timeslots
 2 RB -> PRB es lo que se entrega al aire
@@ -176,3 +178,83 @@ UMBRAL DE CORTE
 El umbral de corte es el nivel de señal en el cual se cumplen las condiciones de
 velocidad establecidas en el diseño de la red celular, para un usuario que se ubica en
 el borde de la celda.
+
+#### Calculo de velocidad
+cada RB tiene $12 portadoras * 7 timeslots= 84$ resource elements
+**asumiendo** 64QAM como modulacion se tiene que se pueden enviar 6 bits por simbolo
+(16QAM = 4 bits por simbolo)
+**asumiendo** que cada RB se transmite cada 0.5ms
+
+entonces $(84 * 6)/0,0005 = 1Mbps$ por cada RB
+
+**asumiendo** que tenemos una portadora de 20MHz y dado que las subportadoras son de 15KHz
+entonces tenemos 
+$20M/15k = 1333,33 subcariers$ 
+el 10% de las subcarriers no se usa, por lo que hay 1200 subcarriers en la portadora 
+y dado que cada RB tiene 12 subcarriers
+por lo que en cada portadora hay 100 RB en la portadora
+lo que nos da una tasa de $100*1Mbps = 100Mbps$
+# New Radio (5G)
+
+es interoperable entre 4G
+las arquitecturas con 4G son NSA - Non Stand Alone
+estaciones bases 5G SA - Stand Alone
+
+Frecuencias
+450MHz - 6GHz
+24GHz - 52GHz
+
+gNodoB
+
+#### Arquitectura
+
+arquitectura basad en servicios
+
+![[Pasted image 20251207183129.png]]
+
+AMF - Access and Mobility managment fuction
+Encargado de señalización y control de abonados
+SMF - Sesion Managment Fuction
+gestionas las sesiones  y direcionamiento IP
+UPF - User Plane Fuction
+Realiza las funciones del plano de usuario para los paquetes de datos
+NRF
+
+#### calculo de velocidad 
+RB -> 12 subcarriers, 14 simbolos
+**asumiendo** 2 símbolos menos para canales de referencia y control
+12 x 12 =144 RE
+**asumiendo** una separacion de subcarriers de 30KHz que nos da una ranura de tiempo de transmision de 0.5ms
+
+144/0.0005 = 288K RE por segundo
+
+**asumiendo** que nuestra portadora es de 50MHz y por alguna razon tienen 133PRBs????
+deberia ser 139 ya que 50M/360k =139
+
+15k separacion subcarrier -> 180k Tamaño subcarrier
+30k separacion subcarrier -> 360k Tamaño subcarrier
+60k separacion subcarrier -> 720k Tamaño subcarrier
+
+pero X
+entonces 
+288K x 133 = 38,3M
+**asumiendo** modulacion 256QAM
+38,3M x 8 = 306Mbps
+
+Si la TDD del downlink es 80% bajada 20% subida entonces 
+306Mbps x 0,8 = 245Mbps
+
+con MIMO 4x4
+entonces 
+245Mbps x 4 = 980Mbps
+
+cada celda 5g usa beamforming para mejorar la señal de los UE
+#### interfaz de radio
+
+SSB - Synchronization Signal Broadcasting
+
+encargados para indicar el physical cell indicator
+
+PSS/SSS - 
+
+
